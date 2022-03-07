@@ -1,0 +1,32 @@
+main{
+  display: flex;
+  justify-content: center;
+}
+form{
+  padding: 2% 5%;
+  width: 75%;
+  border: 5px solid #1ebdf7;
+  background-color: #fbe6bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label{
+  font-size: 20px;
+}
+input{
+  border: 2px solid #1ebdf7;
+  padding: 2.5px 5px;
+}
+button{
+  margin-top: 15px;
+  padding: 5px;
+  border: 2px solid #43a6ee;
+  border-radius: 10px;
+  width: 100%;
+  background: #d9d0c1;
+}
+button:hover{
+  border: 2px solid #ffba34;
+  background: #43a6ee;
+}

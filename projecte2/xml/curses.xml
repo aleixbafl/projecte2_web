@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curses SYSTEM "curses.dtd">
+<?xml-stylesheet type="text/xsl" href="curses.xsl"?>
+<curses>
+  <cursa>
+    <ID_Cursa>01</ID_Cursa>
+    <titol>27è cursa d'atletisme Tàrrega</titol>
+    <descripcio>27è cursa d'atletisme organitzat per l'ajuntament de Tàrrega. La cursa compte de 20 km de llargada. En el qual el seu recorregut comença en la zona esportiva de contínua pel centre de la ciutat fins a acabar a Sant Eloi.</descripcio>
+    <hora>9:00h</hora>
+    <data>10/03/2022</data>
+  </cursa>
+  <cursa>
+    <ID_Cursa>02</ID_Cursa>
+    <titol>5è cursa de bicicleta a Verdú</titol>
+    <descripcio>5è cursa de bicicleta de 45 km al voltant de la població de Verdú.</descripcio>
+    <hora>8:00h</hora>
+    <data>22/03/2022</data>
+  </cursa>
+  <cursa>
+    <ID_Cursa>03</ID_Cursa>
+    <titol></titol>
+    <descripcio></descripcio>
+    <hora></hora>
+    <data></data>
+  </cursa>
+  <cursa>
+    <ID_Cursa>04</ID_Cursa>
+    <titol></titol>
+    <descripcio></descripcio>
+    <hora></hora>
+    <data></data>
+  </cursa>
+</curses>

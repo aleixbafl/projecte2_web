@@ -1,0 +1,7 @@
+<!ELEMENT curses (cursa+)>
+<!ELEMENT cursa (ID_Cursa, titol, descripcio, hora, data)>
+<!ELEMENT ID_Cursa (#PCDATA)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT data (#PCDATA)>

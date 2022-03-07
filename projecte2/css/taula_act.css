@@ -1,0 +1,14 @@
+table{
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+#index_act th, td{
+  padding: 10px 5px;
+}
+.border-left{
+  border-left: 2px solid #005796;
+}
+#index_act td{
+  border-top: 2px solid #005796;
+}

@@ -1,0 +1,142 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background: #d9d9d9;
+}
+header{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #43a6ee;
+}
+/*Menu per PC i Tauleta*/
+#nav1{
+  height: 50px;
+  background-color: #ffba34;
+  display: flex;
+  align-items: center;
+}
+#nav1 ul{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#nav1 li{
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+#nav1 a{
+  text-decoration: none;
+  color: #000;
+  border: 3px solid #43a6ee;
+  border-radius: 20px;
+  padding: 10px 5%;
+}
+#nav1 a:hover{
+  border: 5px solid #60ee43;
+  background-color: #43a6ee;
+  font-size: 110%;
+}
+
+/* Menu Mobil */
+#nav2{
+  background-color: #ffba34;
+  display: flex;
+  align-items: center;
+  display: block;
+  z-index: 1;
+}
+#nav2 ul{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+#nav2 > li{
+  font: left;
+}
+#nav2 li{
+  width: 100%;
+  text-align: center;
+  list-style: none;
+  margin: 15px;
+}
+#nav2 li ul{
+  display: none;
+  position: absolute;
+}
+#nav2 li:hover > ul{
+  display: block;
+}
+
+#nav2 li ul li{
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+  background: #ffba34;
+}
+
+#nav2 a{
+  text-decoration: none;
+  color: #000;
+  border: 3px solid #43a6ee;
+  border-radius: 20px;
+  padding: 10px 5%;
+  background: #ffba34;
+}
+#nav2 a:hover{
+  border: 5px solid #60ee43;
+  background-color: #43a6ee;
+  font-size: 110%;
+}
+
+/* Menu login */
+#login{
+  height: 50px;
+  background-color: #ffba34;
+  display: flex;
+  align-items: center;
+}
+#login ul{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#login li{
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+#login a{
+  text-decoration: none;
+  color: #000;
+  border: 3px solid #43a6ee;
+  border-radius: 20px;
+  padding: 10px 5%;
+}
+#login a:hover{
+  border: 5px solid #60ee43;
+  background-color: #43a6ee;
+  font-size: 110%;
+}
+
+main{
+  padding: 2% 5%;
+}
+section{
+  padding: 2% 5%;
+  border: 5px solid #1ebdf7;
+  background-color: #fbe6bc;
+  margin: 0 0 1% 0;
+}
